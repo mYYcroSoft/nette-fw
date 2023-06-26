@@ -416,3 +416,5 @@ interface IResponse
 	 */
 	function deleteCookie(string $name, ?string $path = null, ?string $domain = null, ?bool $secure = null);
 }
+
+

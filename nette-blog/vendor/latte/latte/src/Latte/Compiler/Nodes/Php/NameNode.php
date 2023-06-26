@@ -75,7 +75,7 @@ class NameNode extends Node
 	public function __toString(): string
 	{
 		return implode('\\', $this->parts);
-	}
+	}	
 
 
 	public function toCodeString(): string
